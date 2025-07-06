@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Netflix Clone - HTML, CSS, JS" />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link
+      rel="icon"
+      href="https://pngimg.com/uploads/netflix/small/netflix_PNG15.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar__brand">
+        <img
+          src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+          alt="Netflix Logo"
+          class="brand__logo"
+        />
+      </div>
+      <div class="navbar__nav__items">
+        <div class="dropdown__container">
+          <i class="fas fa-globe"></i>
+          <select class="language__drop__down">
+            <option value="english">English</option>
+            <option value="hindi">हिन्दी</option>
+          </select>
+        </div>
+        <button class="signin__button">Sign In</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__bg__overlay"></div>
+      <div class="hero__content">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <p>
+          Ready to watch? Enter your email to create or restart your
+          membership.
+        </p>
+        <div class="email__form__container">
+          <div class="form__container">
+            <input type="email" placeholder=" " class="email__input" />
+            <label class="email__label">Email Address</label>
+          </div>
+          <button class="primary__button">
+            Get Started <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq__list">
+        <div class="faq__item">
+          <button class="faq__question">
+            What is Netflix? <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Netflix is a streaming service offering a wide variety of award-winning TV shows, movies, anime, and more.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            How much does Netflix cost? <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Watch Netflix on your devices for a fixed monthly fee. Plans range from ₹199 to ₹799/month.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            Where can I watch? <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Watch anywhere, anytime on your phone, tablet, laptop, or TV.
+            </p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">
+            How do I cancel? <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq__answer">
+            <p>
+              Cancel easily online anytime. No commitments, no cancellation fees.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Questions? Call 000-800-040-1843</p>
+      <div class="footer__links">
+        <p>FAQ</p>
+        <p>Help Centre</p>
+        <p>Terms of Use</p>
+        <p>Privacy</p>
+        <p>Cookie Preferences</p>
+        <p>Corporate Information</p>
+      </div>
+      <p>Netflix India</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
